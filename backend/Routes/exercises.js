@@ -1,7 +1,6 @@
 /**
  * Author : Fakhra Najm <fnajm09@gmail.com>
  */
-
 const router = require('express').Router()
 const Exercise = require('../Models/exercises.model')
 

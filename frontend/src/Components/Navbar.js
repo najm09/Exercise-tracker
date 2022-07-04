@@ -1,17 +1,14 @@
+import './Navbar.css'
 const Navbar = () => {
   return(
-    <div>
-      <ul style={{display:'flex', flexDirection: 'row', justifyContent:'space-around'}}>
-        <li>
-          <a href='/exercises'>Exercises</a>
-        </li>
-        <li>
+    <div className='Header'>
+      <a href = '/'>ExerciseTracker</a>
+      <div className='navbar-items'>
+          <a href='/'>Exercises Log</a>
+          {/* <a href='/userlist'>Users Log</a> */}
           <a href='/user'>Create User</a>
-        </li>
-        <li>
-          <a href='/create'>Create Exercise</a>
-        </li>
-      </ul>
+          <a href='/create'>Create Exercise Log</a>
+      </div>
     </div>
   )
 }

@@ -20,13 +20,6 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverA
     console.log("MongoDB database connection established successfully");
   })
 
-// const client = new MongoClient(uri, );
-// client.connect(err => {
-//   const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//   client.close();
-// });
-
 const exercisesRouter = require('./Routes/exercises')
 const usersRouter = require('./Routes/users')
 

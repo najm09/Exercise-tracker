@@ -1,0 +1,5 @@
+.user-body{
+  padding: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
