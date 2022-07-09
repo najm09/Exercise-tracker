@@ -7,6 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { Typography } from '@mui/material';
 import { useState, useEffect } from 'react';
 import './ExerciseList.css'
 import ErrorPage from './Error'
@@ -51,7 +52,7 @@ const ExercisesList = () => {
   return userData.length ? (
     <div className='header'>
       <div>
-      <h3>Logged Exercises</h3>
+      <Typography center variant = 'h4'>Logged Exercises Lists </Typography>
       &nbsp;
       </div>
       <TableContainer component={Paper}>
